@@ -1,0 +1,7 @@
+{
+  "GHSA-238p-pmpm-9mq7": {
+    "active": true,
+    "notes": "KaTeX comes in only via markdownlint -> micromark-extension-math, whose katex ^0.16 range can't reach the fix (0.18.2). markdownlint uses only the math syntax parser, never KaTeX rendering, and it is a dev-only linter of our own Markdown.",
+    "expiry": "2027-05-16"
+  }
+}

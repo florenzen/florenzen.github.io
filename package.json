@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "description": "Pinned linters and formatters, run via pre-commit (.pre-commit-config.yaml) and used by the VS Code extensions.",
+  "scripts": {
+    "audit": "better-npm-audit audit"
+  },
+  "devDependencies": {
+    "better-npm-audit": "4.2.1",
+    "markdownlint-cli2": "0.24.1",
+    "prettier": "3.9.10"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          ".nsprc"
+        ],
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
+  }
+}

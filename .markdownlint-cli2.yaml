@@ -1,0 +1,4 @@
+# Rules are configured in .markdownlint.json.
+# r/<name> files are redirect definitions, not Markdown.
+ignores:
+  - "r/**"

@@ -1,0 +1,3 @@
+ignored:
+  # Pinning exact Debian package versions breaks the build whenever trixie ships a security update.
+  - DL3008

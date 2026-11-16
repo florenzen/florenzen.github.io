@@ -1,0 +1,35 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "editor.rulers": [102]
+  },
+  "files.associations": {
+    ".nsprc": "json",
+    "**/r/*": "plaintext"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  "shellcheck.executablePath": "/opt/venv/bin/shellcheck",
+  "shfmt.executablePath": "/opt/venv/bin/shfmt",
+  "hadolint.hadolintPath": "/opt/venv/bin/hadolint",
+  "cSpell.enabledFileTypes": {
+    "*": false,
+    "markdown": true
+  },
+  "cSpell.language": "en",
+  "cSpell.words": ["actionlint", "hadolint", "florenzen", "nsprc", "shfmt"]
+}
